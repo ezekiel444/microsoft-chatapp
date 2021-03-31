@@ -21,4 +21,8 @@
 ------------------
 
 ## username: jane 
+<<<<<<< HEAD
 ## password: jane
+=======
+## password: jane
+>>>>>>> 06704865d9493681b73a8da7a01ac1fecc51b1e5
