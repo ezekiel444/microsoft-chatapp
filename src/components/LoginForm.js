@@ -31,7 +31,7 @@ window.location.reload()
     return (
         <div className='wrapper'>
             <div className="form">
-                <h3><a target="_blank" rel="noreferrer"  href="https://github.com/ezekiel444/microsoft-chatapp/blob/master/Default%20Credentials.md">Please click this link to get the default username and password. Registration portal will be available soon...</a></h3>
+                <h3 className='gitlink'><a target="_blank" rel="noreferrer"  href="https://github.com/ezekiel444/microsoft-chatapp/blob/master/Default%20Credentials.md">Please click this link to get the default username and password. Registration portal will be available soon...</a></h3>
                 <h1 className="title">Chat Application</h1>
                 <form onSubmit={handleSumbit}>
                     <input type="text"
@@ -55,6 +55,7 @@ window.location.reload()
             </div>
             <h2 style={{textAlign:'center'}}>{error}</h2>
                 </form>
+            <h1 className='owner' ><a style={{textAlign:'center', textDecoration:'none'}} href="http://matomi.netlify.com/">Ezekiel Matomi Lucky</a></h1>
             </div>
         </div>
     )

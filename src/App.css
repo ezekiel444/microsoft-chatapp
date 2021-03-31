@@ -288,3 +288,16 @@
   opacity: 1;
   right: 0;
 }
+
+.gitlink a:hover{
+  background-color: red;
+
+}
+
+.owner{
+  text-align: center;
+}
+
+.owner a:hover{
+  color: rgb(79, 79, 182);
+}
