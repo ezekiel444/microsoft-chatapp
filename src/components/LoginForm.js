@@ -31,6 +31,7 @@ window.location.reload()
     return (
         <div className='wrapper'>
             <div className="form">
+                <h3><a target="_blank" rel="noreferrer"  href="https://github.com/ezekiel444/microsoft-chatapp/blob/master/Default%20Credentials.md">Please click this link to get the default username and password. Registration portal will be available soon...</a></h3>
                 <h1 className="title">Chat Application</h1>
                 <form onSubmit={handleSumbit}>
                     <input type="text"
